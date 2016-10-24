@@ -1,0 +1,66 @@
+body{
+  background-color: #f4dec9;
+}
+
+
+
+li {
+  position:relative;
+  display: inline-block;
+  left:0%;
+  padding: 10px;
+    height: 55px;
+    margin: 10px;
+    border: 3px solid #dd9362;
+    background-color: #f2ece7;
+  margin-bottom: 15px;
+  margin-left:20px;
+  margin-top: : 15px;
+  font-size: 1.2em;
+  color: #93221c;
+}
+
+#toBuyList{
+  width: 300px;
+}
+#boughtList{
+  width:180px;
+  background-color: #cbf3f7;
+
+}
+
+}
+button {
+  position:relative;
+  display: inline-block;
+  width: 100px;
+  border-radius: 3px;
+  background-color: #dd9362;
+  position:relative;
+  color:#f7f1eb;
+}
+
+h1{
+  font-size:2em;
+  color:#ef8f26;
+}
+h2{
+  font-size: 1.3em;
+  color:#c68059;
+  font-style: italic;
+
+}
+h3{
+  font-size: 1.4em;
+  color:#c68059;
+  font-style: italic;
+}
+.announce{
+  color:#ef8f26;
+  font-style: italic;
+}
+
+
+hr{
+  border: 1px solid#dd9362;
+}
