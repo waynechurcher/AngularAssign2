@@ -38,14 +38,17 @@
 
         <h2 class="announce" ng-if="buy.toBuyItems.length ==0"> That's it!! All is bought!:) </h2>
         <hr>
+
+
+        <h2 class="announce" ng-if="buy.toBuyItems.length ==5">  Nothing is Bought. </h2>
     </div>
       <!-- Already Bought List -->
        <div  ng-controller='AlreadyBoughtController as bought'>
            <div ng-if="buy.toBuyItems.length < 5">
-             <h2 >Already Bought:</h2>
+             <h2 > Bought:</h2>
              <div>
                <ul>
-                 <li id = "boughtList"  ng-repeat="boughtItem in bought.getBoughtItems">
+                 <li id = "boughtList"  ng-repeat="boughtItem in bought.getBoughtItems">Bought:
                    {{ boughtItem.quantity}} of {{ boughtItem.name }}
                  </li>
                </ul>
